@@ -10,4 +10,33 @@
 <hr />
 
 > **Abstract:**
->*Recent video recognition models utilize Transformer models for long-range spatio-temporal context modeling. Video transformer designs are based on self-attention that can model global context at a high computational cost. In comparison, convolutional designs for videos offer an efficient alternative but lack long-range dependency modeling. Towards achieving the best of both designs, this work proposes Video-FocalNet, an effective and efficient architecture for video recognition that models both local and global contexts. Video-FocalNet is based on a spatio-temporal focal modulation architecture that reverses the interaction and aggregation steps of self-attention for better efficiency. Further, the aggregation step and the interaction step are both implemented using efficient convolution and element-wise multiplication operations that are computationally less expensive than their self-attention counterparts on video representations. We extensively explore the design space of focal modulation-based spatio-temporal context modeling and demonstrate our parallel spatial and temporal encoding design to be the optimal choice. Video-FocalNets perform favorably well against the state-of-the-art transformer-based models for video recognition on three large-scale datasets (Kinetics-400, Kinetics-600, and SS-v2) at a lower computational cost.*
+>*The landscape of video recognition has undergone
+a significant transformation, shifting from traditional Convolutional Neural Networks (CNNs) to Transformer-based architectures in order to achieve better accuracy. While CNNs,
+especially 3D variants, have excelled in capturing spatiotemporal dynamics for action recognition, recent developments in
+Transformer models, with their self-attention mechanisms, have
+proven highly effective in modeling long-range dependencies
+across space and time. Despite their state-of-the-art performance
+on prominent video recognition benchmarks, the computational
+demands of Transformers, particularly in processing dense video
+data, remain a significant hurdle. To address these challenges,
+we introduce a lightweight Video Focal Modulation Network
+named DVFL-Net, which distills the spatio-temporal knowledge
+from large pre-trained teacher to nano student model, making it
+well-suited for on-device applications. By leveraging knowledge
+distillation and spatial-temporal feature extraction, our model
+significantly reduces computational overhead (approximately 7×)
+while maintaining high performance in video recognition tasks.
+We combine the forward Kullback–Leibler (KL) divergence and
+spatio-temporal focal modulation to distill the local and global
+spatio-temporal context from the Video-FocalNet Base (teacher)
+to our proposed nano VFL-Net (student) model. We extensively
+evaluate our DVFL-Net, both with and without forward KL
+divergence, against recent state-of-the-art HAR approaches on
+UCF50, UCF101, and HMDB51 datasets. Further, we conducted
+a detailed ablation study in forward KL divergence settings
+and reports the obtained observations. The obtained results
+confirm the superiority of the distilled VFL-Net (i.e., DVFL-Net)
+over existing methods, highlighting its optimal tradeoff between
+performance and computational efficiency, including reduced
+memory usage and lower GFLOPs, making it a highly efficient
+solution for HAR tasks.*
