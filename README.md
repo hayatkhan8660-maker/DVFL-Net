@@ -17,7 +17,12 @@ demands of Transformers, particularly in processing dense video data, remain a s
 <img src="figures/STFMB.png" width="1000"/>
 
 ## Training (Teacher Pretraining)
-
+To train teacher model on a given dataset, run the following:
+```bash
+python -m torch.distributed.launch --nproc_per_node <num-of-gpus-to-use>  main.py \
+--cfg <config-file> --batch-size <batch-size-per-gpu> --output <output-directory> \
+--opts DATA.ROOT path/to/root DATA.TRAIN_FILE train.csv DATA.VAL_FILE val.csv
+```
 <!--
 ## Citation
 If you find our work, this repository, or pretrained models useful, please consider giving a star :star: and citation.
