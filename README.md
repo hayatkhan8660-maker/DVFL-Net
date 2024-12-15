@@ -16,6 +16,7 @@ demands of Transformers, particularly in processing dense video data, remain a s
 <img src="figures/DVFL-Net.png" width="1000"/>
 <img src="figures/STFMB.png" width="1000"/>
 
+<!--
 ## Citation
 If you find our work, this repository, or pretrained models useful, please consider giving a star :star: and citation.
 ```bibtex
@@ -25,7 +26,8 @@ If you find our work, this repository, or pretrained models useful, please consi
     booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
     year      = {2023},
 }
-```
+``` 
+-->
 
 ## Contact
 For any questions or inquiries, please open an issue in this repository or contact us at hullah2024@fau.edu. 
