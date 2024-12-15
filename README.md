@@ -21,7 +21,7 @@ To train teacher model on a given dataset, run the following:
 ```bash
 torchrun --nproc_per_node <num-of-gpus-to-use>  main.py --cfg <config-file> --output <output-directory> --opts DATA.NUM_Frames <number of frames>
 ```
-For example,
+For instance, to train the teacher model (pretraining) using 3 GPUs on the UCF101 dataset, run the following command:
 ```
 torchrun --nproc_per_node 3 main.py --cfg configs/ucf101/video-focalnet_base.yaml --output output/ --opts DATA.NUM_FRAMES 8
 ```
