@@ -25,6 +25,9 @@ For example,
 ```
 torchrun --nproc_per_node 3 main.py --cfg configs/ucf101/video-focalnet_base.yaml --output output/ --opts DATA.NUM_FRAMES 8
 ```
+
+## Training (Knowledge Distillation)
+
 <!--
 ## Citation
 If you find our work, this repository, or pretrained models useful, please consider giving a star :star: and citation.
