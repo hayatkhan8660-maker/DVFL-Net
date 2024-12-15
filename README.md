@@ -19,9 +19,7 @@ demands of Transformers, particularly in processing dense video data, remain a s
 ## Training (Teacher Pretraining)
 To train teacher model on a given dataset, run the following:
 ```bash
-torchrun --nproc_per_node <num-of-gpus-to-use>  main.py \
---cfg <config-file> --output <output-directory> \
---opts DATA.NUM_Frames <number of frames>
+torchrun --nproc_per_node <num-of-gpus-to-use>  main.py --cfg <config-file> --output <output-directory> --opts DATA.NUM_Frames <number of frames>
 ```
 For example,
 ```
