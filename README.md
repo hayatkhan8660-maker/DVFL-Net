@@ -25,7 +25,9 @@ For instance, to train the teacher model (pretraining) using 3 GPUs on the UCF10
 ```
 torchrun --nproc_per_node 3 main.py --cfg configs/ucf101/video-focalnet_base.yaml --output output/ --opts DATA.NUM_FRAMES 8
 ```
-**Note:** Additionally, the TRAIN.PRETRAINED_PATH can be set (either in the config file or bash script) to provide a pretrained model to initialize the weights. To initialize from the ImageNet-1K weights please refer to the FocalNets repository and download the FocalNet-T-SRF, FocalNet-S-SRF or FocalNet-B-SRF to initialize Video-FocalNet-T, Video-FocalNet-S or Video-FocalNet-B respectively. Alternatively, one of the provided pretrained Video-FocalNet models can also be utilized to initialize the weights.
+**Note:** During pretraining, we intialized our teacher model with the ImageNet-1K weights of [FocalNets](https://github.com/microsoft/FocalNet) model. 
+<!-- Additionally, the TRAIN.PRETRAINED_PATH can be set (either in the config file or bash script) to provide a pretrained model to initialize the weights. To initialize from the ImageNet-1K weights please refer to the FocalNets repository and download the FocalNet-T-SRF, FocalNet-S-SRF or FocalNet-B-SRF to initialize Video-FocalNet-T, Video-FocalNet-S or Video-FocalNet-B respectively. Alternatively, one of the provided pretrained Video-FocalNet models can also be utilized to initialize the weights. -->
+
 ## Training (Knowledge Distillation)
 
 <!--
