@@ -17,5 +17,5 @@ demands of Transformers, particularly in processing dense video data, remain a s
 <img src="figures/STFMB.png" width="1000"/>
 
 ## Acknowledgements
-Our code is based on [FocalNets](https://github.com/microsoft/FocalNet) and [Video-FocalNets](https://github.com/TalalWasim/Video-FocalNets) repositories. We thank the authors for releasing their code. 
+We acknowledge that our work is inspired by the [FocalNets](https://github.com/microsoft/FocalNet) and [Video-FocalNets](https://github.com/TalalWasim/Video-FocalNets) repositories. We sincerely thank the authors for making their code publicly available.
 <!-- If you use our model, please consider citing these works as well. -->
