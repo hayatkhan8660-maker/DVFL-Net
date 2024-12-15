@@ -16,6 +16,8 @@ demands of Transformers, particularly in processing dense video data, remain a s
 <img src="figures/DVFL-Net.png" width="1000"/>
 <img src="figures/STFMB.png" width="1000"/>
 
+## Training (Teacher Pretraining)
+
 <!--
 ## Citation
 If you find our work, this repository, or pretrained models useful, please consider giving a star :star: and citation.
