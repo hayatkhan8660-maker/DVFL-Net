@@ -59,7 +59,10 @@ bash scripts/ucf101/VFL-Net_kd.sh
 ```
 
 ## Evaluation
-
+To evaluate the performance of pretrained model on a test set of given dataset, run the following:
+```bash
+torchrun --nproc_per_node <num-of-gpus-to-use> main.py --eval --cfg <config-file> --resume <checkpoint> TEST.NUM_CLIP <number of clips> TEST.NUM_CROP <number of crops>
+```
 ## Visualization
 
 <!--
