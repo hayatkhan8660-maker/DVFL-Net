@@ -16,6 +16,8 @@ demands of Transformers, particularly in processing dense video data, remain a s
 <img src="figures/DVFL-Net.png" width="1000"/>
 <img src="figures/STFMB.png" width="1000"/>
 
+## Model Zoo
+
 ## Training (Teacher Pretraining)
 To train teacher model on a given dataset, run the following:
 ```bash
