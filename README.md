@@ -40,12 +40,12 @@ bash scripts/ucf101/video-focalnet_base.sh
 ## Training (Knowledge Distillation)
 To train the student model in knowledge distillation settings (under the supervision of pretrained teacher model) on a given dataset, run the following:
 ```bash
-torchrun --nproc_per_node <num-of-gpus-to-use> main_KD.py --cfg <config-file> --output <output-directory> --opts DATA.NUM_Frames <number of frames> KD.ALPHA <alpha value> KD.GAMMA <gamma value> KD.TEMPERATURE <temperature value>
+torchrun --nproc_per_node <num-of-gpus-to-use> main_KD.py --cfg <config-file> --output <output-directory> --opts DATA.NUM_Frames <number of frames> KD.ALPHA <alpha value> KD.BETA <beta value> KD.GAMMA <gamma value> KD.TEMPERATURE <temperature value>
 ```
 - ``` --nproc_per_node ```: set the number of GPU devices, in our case we used 3 GPUs.
 - ``` --cfg ```: the path of config file (located in configs directory), containing the model, data, and training configurations.
 - ``` --output ```: the path of output directory that will contain the training history (incluing both model weights and training logs).
-- ``` --opts ```: it allow user to provide additional data related (i.e., ``` DATA.NUM_Frames ```), training related (i.e., ``` TRAIN.EPOCHS ```), and knowledge distillation related (i.e., ``` KD.ALPHA ```, ``` KD.GAMMA ```, and ``` KD.TEMPERATURE ```).
+- ``` --opts ```: it allow user to provide additional data related (i.e., ``` DATA.NUM_Frames ```), training related (i.e., ``` TRAIN.EPOCHS ```), and knowledge distillation related (i.e., ``` KD.ALPHA ```, ``` KD.BETA ```, ``` KD.GAMMA ```, and ``` KD.TEMPERATURE ```).
 
 For instance, to train the student model (VFL-Net) in knowledge settings under the supervision of teacher model (video-focalnet_base) using 3 GPUs on the UCF101 dataset, run the following command:
 ```bash
