@@ -32,7 +32,7 @@ torchrun --nproc_per_node 3 main.py --cfg configs/ucf101/video-focalnet_base.yam
 ```
 **Note:** During pretraining, we intialized our teacher model with the ImageNet-1K weights of [FocalNets](https://github.com/microsoft/FocalNet) model. To initialize a model with pretrained weights, set ```TRAIN.PRETRAINED_PATH``` to the path of the pretrained model weights. This can be configured either in the configuration file (located in the ```configs``` directory) or directly in the bash script. Alternatively, to train the model from scratch, simply leave ```TRAIN.PRETRAINED_PATH``` empty.
 
-Alternatively, the above step can be done by simply running ``` bash.sh ``` file located in scripts directory. For instance:
+Alternatively, the above step can be done by simply running the ``` bash.sh ``` file located in scripts directory. For instance:
 ```bash
 bash scripts/ucf101/video-focalnet_base.sh
 ```
@@ -50,6 +50,10 @@ torchrun --nproc_per_node <num-of-gpus-to-use> main_KD.py --cfg <config-file> --
 For instance, to train the student model (VFL-Net) in knowledge settings under the supervision of teacher model (video-focalnet_base) using 3 GPUs on the UCF101 dataset, run the following command:
 ```bash
 torchrun --nproc_per_node 3 main_KD.py --cfg configs/ucf101/VFL-Net_kd.yaml --output output/ --opts DATA.NUM_FRAMES 8 KD.ALPHA 0.2 KD.BETA 0.3 KD.GAMMA 0.5 KD.TEMPERATURE 10
+```
+Alternatively, the above step can be done by simply running the ``` bash.sh ``` file located in scripts directory. For instance:
+```bash
+bash scripts/ucf101/VFL-Net_kd.sh
 ```
 
 <!--
