@@ -63,6 +63,12 @@ To evaluate the performance of pretrained model on a test set of given dataset, 
 ```bash
 torchrun --nproc_per_node <num-of-gpus-to-use> main.py --eval --cfg <config-file> --resume <checkpoint> TEST.NUM_CLIP <number of clips> TEST.NUM_CROP <number of crops>
 ```
+- ``` --nproc_per_node ```: set the number of GPU devices, in our case we used 3 GPUs.
+- ``` --eval ```: it set the model mode to evaluation and avoid trianing.
+- ``` --cfg ```: the path of config file (located in configs directory), containing the model, data, and training configurations.
+- ``` --resume ```: the of pretrained weights.
+- ``` --opts ```: it allow user to provide additional data related (i.e., ``` DATA.NUM_Frames ```) or test related (i.e., ``` TEST.NUM_CLIP ``` and ``` TEST.NUM_CROP ```).
+
 ## Visualization
 
 <!--
