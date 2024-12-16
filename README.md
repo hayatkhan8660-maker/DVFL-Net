@@ -27,13 +27,13 @@ torchrun --nproc_per_node <num-of-gpus-to-use>  main.py --cfg <config-file> --ou
 - ``` --opts ```: it allow user to provide additional data related (number of frames) or training related (i.e., hyper-parameter).
   
 For instance, to train the teacher model (pretraining) using 3 GPUs on the UCF101 dataset, run the following command:
-```
+```bash
 torchrun --nproc_per_node 3 main.py --cfg configs/ucf101/video-focalnet_base.yaml --output output/ --opts DATA.NUM_FRAMES 8
 ```
 **Note:** During pretraining, we intialized our teacher model with the ImageNet-1K weights of [FocalNets](https://github.com/microsoft/FocalNet) model. To initialize a model with pretrained weights, set ```TRAIN.PRETRAINED_PATH``` to the path of the pretrained model weights. This can be configured either in the configuration file (located in the ```configs``` directory) or directly in the bash script. Alternatively, to train the model from scratch, simply leave ```TRAIN.PRETRAINED_PATH``` empty.
 
 Alternatively, the above step can be done by simply running ``` bash.sh ``` file located in scripts directory. For instance:
-```
+```bash
 bash scripts/ucf101/video-focalnet_base.sh
 ```
 
