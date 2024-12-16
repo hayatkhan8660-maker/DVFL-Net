@@ -20,13 +20,13 @@ demands of Transformers, particularly in processing dense video data, remain a s
 
 ### HMDB51
 
-|       Model      |    Depth   | Dim | Kernels | Top-1 | Top-5 | Download |
-|:----------------:|:----------:|:---:|:-------:|:-----:|:-----:|:--------:|
-| Video-FocalNet-B | [2,2,18,2] | 128 |  [3,5]  |  84.2 |  93.6 |   [ckpt](https://drive.google.com/file/d/1tc1AKKmvHN7Hzxpd53QsBIMQZmLH8ozX/view?usp=drive_link)   |
-| Video-FocalNet-S | [2,2,18,2] |  96 |  [3,5]  |  83.4 |  92.4 |   [ckpt](https://drive.google.com/file/d/1gO4_tluuoR4mn2bSQRNyy9_wFCnUSiQ0/view?usp=sharing)   |
-| Video-FocalNet-T |  [2,2,6,2] |  96 |  [3,5]  |  81.5 |  91.1 |   [ckpt](https://drive.google.com/file/d/1wsUjJbPVQd7pf-OocD9mVU8pak0gdBTP/view?usp=sharing)   |
-| VFL-Net          |  [1,1,2,1] |  96 |  [3,5]  |  71.6 |  88.5 |   [ckpt](https://drive.google.com/file/d/1wsUjJbPVQd7pf-OocD9mVU8pak0gdBTP/view?usp=sharing)   |
-| DVFL-Net         |  [1,1,2,1] |  96 |  [3,5]  |  82.7 |  92.8 |   [ckpt](https://drive.google.com/file/d/1wsUjJbPVQd7pf-OocD9mVU8pak0gdBTP/view?usp=sharing)   |
+|       Model      |    Depth   | Dim | Kernels | Top-1 | Top-5 | Parameters | Download |
+|:----------------:|:----------:|:---:|:-------:|:-----:|:-----:|:--------:|:--------:|
+| Video-FocalNet-B | [2,2,18,2] | 128 |  [3,5]  |  84.2 |  93.6 |  157M |   [ckpt](https://drive.google.com/file/d/1tc1AKKmvHN7Hzxpd53QsBIMQZmLH8ozX/view?usp=drive_link)   |
+| Video-FocalNet-S | [2,2,18,2] |  96 |  [3,5]  |  83.4 |  92.4 |  88M  |   [ckpt](https://drive.google.com/file/d/1gO4_tluuoR4mn2bSQRNyy9_wFCnUSiQ0/view?usp=sharing)   |
+| Video-FocalNet-T |  [2,2,6,2] |  96 |  [3,5]  |  81.5 |  91.1 |  49M  |   [ckpt](https://drive.google.com/file/d/1wsUjJbPVQd7pf-OocD9mVU8pak0gdBTP/view?usp=sharing)   |
+| VFL-Net          |  [1,1,2,1] |  96 |  [3,5]  |  71.6 |  88.5 |  22M  |   [ckpt](https://drive.google.com/file/d/1wsUjJbPVQd7pf-OocD9mVU8pak0gdBTP/view?usp=sharing)   |
+| DVFL-Net         |  [1,1,2,1] |  96 |  [3,5]  |  82.7 |  92.8 |  22M  |   [ckpt](https://drive.google.com/file/d/1wsUjJbPVQd7pf-OocD9mVU8pak0gdBTP/view?usp=sharing)   |
 
 ### UCF50
 
