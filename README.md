@@ -56,6 +56,9 @@ Alternatively, the above step can be done by simply running the ``` bash.sh ``` 
 bash scripts/ucf101/VFL-Net_kd.sh
 ```
 
+## Evaluation
+
+
 <!--
 ## Citation
 If you find our work, this repository, or pretrained models useful, please consider giving a star :star: and citation.
