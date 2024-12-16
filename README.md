@@ -41,6 +41,9 @@ bash scripts/ucf101/video-focalnet_base.sh
 
 ## Training (Knowledge Distillation)
 To train the student model in knowledge distillation settings (under the supervision of pretrained teacher model) on a given dataset, run the following:
+```
+torchrun --nproc_per_node <num-of-gpus-to-use> main_KD.py --cfg <config-file> --output <output-directory> --opts DATA.NUM_Frames <number of frames> KD.ALPHA <alpha value> KD.GAMMA <gamma value> KD.TEMPERATURE <temperature value>
+```
 
 <!--
 ## Citation
