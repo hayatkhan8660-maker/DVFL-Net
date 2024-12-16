@@ -69,6 +69,11 @@ torchrun --nproc_per_node <num-of-gpus-to-use> main.py --eval --cfg <config-file
 - ``` --resume ```: the of pretrained weights.
 - ``` --opts ```: it allow user to provide additional data related (i.e., ``` DATA.NUM_Frames ```) or test related (i.e., ``` TEST.NUM_CLIP ``` and ``` TEST.NUM_CROP ```).
 
+For instance, to evaluate the student model trained in knowledge distillation settings using 1 GPU1 on the test set of UCF101 dataset, run the following command:
+```bash
+torchrun --nproc_per_node 1 main.py --eval --cfg configs/ucf101/VFL-Net.yaml --resume output/ucf101/VFL-Net/LR_0.1_EP_120_OPT_sgd_FRAMES_8/ckpt_epoch_119.pth TEST.NUM_CLIP 4 TEST.NUM_CROP 3
+```
+
 ## Visualization
 
 <!--
