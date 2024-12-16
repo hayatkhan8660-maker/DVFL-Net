@@ -32,7 +32,7 @@ torchrun --nproc_per_node 3 main.py --cfg configs/ucf101/video-focalnet_base.yam
 ```
 **Note:** During pretraining, we intialized our teacher model with the ImageNet-1K weights of [FocalNets](https://github.com/microsoft/FocalNet) model. To initialize a model with pretrained weights, set ```TRAIN.PRETRAINED_PATH``` to the path of the pretrained model weights. This can be configured either in the configuration file (located in the ```configs``` directory) or directly in the bash script. Alternatively, to train the model from scratch, simply leave ```TRAIN.PRETRAINED_PATH``` empty.
 
-Alternatively, the above step can be done by simply running ``` bash ``` file located in scripts directory.  
+Alternatively, the above step can be done by simply running ``` bash.sh ``` file located in scripts directory.  
 
 <!-- Additionally, the TRAIN.PRETRAINED_PATH can be set (either in the config file or bash script) to provide a pretrained model to initialize the weights. To initialize from the ImageNet-1K weights please refer to the FocalNets repository and download the FocalNet-T-SRF, FocalNet-S-SRF or FocalNet-B-SRF to initialize Video-FocalNet-T, Video-FocalNet-S or Video-FocalNet-B respectively. Alternatively, one of the provided pretrained Video-FocalNet models can also be utilized to initialize the weights. -->
 
