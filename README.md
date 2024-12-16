@@ -24,7 +24,7 @@ torchrun --nproc_per_node <num-of-gpus-to-use>  main.py --cfg <config-file> --ou
 - ``` --nproc_per_node ```: set the number of GPU devices, in our case we used 3 GPUs.
 - ``` --cfg ```: the path of config file (located in configs directory), containing the model, data, and training configurations.
 - ``` --output ```: the path of output directory that will contain the training history (incluing both model weights and training logs).
-- ``` --opts ```: it allow user to provide additional data related (number of frames) or training related (i.e., hyper-parameter).
+- ``` --opts ```: it allow user to provide additional data related (i.e., ``` DATA.NUM_Frames ```) or training related (i.e., ``` TRAIN.EPOCHS ```).
   
 For instance, to train the teacher model (pretraining) using 3 GPUs on the UCF101 dataset, run the following command:
 ```bash
@@ -45,7 +45,7 @@ torchrun --nproc_per_node <num-of-gpus-to-use> main_KD.py --cfg <config-file> --
 - ``` --nproc_per_node ```: set the number of GPU devices, in our case we used 3 GPUs.
 - ``` --cfg ```: the path of config file (located in configs directory), containing the model, data, and training configurations.
 - ``` --output ```: the path of output directory that will contain the training history (incluing both model weights and training logs).
-- ``` --opts ```: it allow user to provide additional data related (number of frames) or training related (i.e., hyper-parameter).
+- ``` --opts ```: it allow user to provide additional data related (i.e., ``` DATA.NUM_Frames ```), training related (i.e., ``` TRAIN.EPOCHS ```), and knowledge distillation related (i.e., ``` KD.ALPHA ```, ``` KD.GAMMA ```, and ``` KD.TEMPERATURE ```).
 
 <!--
 ## Citation
