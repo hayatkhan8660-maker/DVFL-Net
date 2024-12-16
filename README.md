@@ -23,7 +23,7 @@ torchrun --nproc_per_node <num-of-gpus-to-use>  main.py --cfg <config-file> --ou
 ```
 - ``` --nproc_per_node ```:
 - ``` --cfg ```:
-- ``` --output ```:
+- ``` --output ```: provide the path of output directory that will contain the training history (incluing both model weights and training logs).
 - ``` --opts ```:
   
 For instance, to train the teacher model (pretraining) using 3 GPUs on the UCF101 dataset, run the following command:
