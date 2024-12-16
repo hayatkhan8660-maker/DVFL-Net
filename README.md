@@ -37,13 +37,15 @@ Alternatively, the above step can be done by simply running ``` bash.sh ``` file
 bash scripts/ucf101/video-focalnet_base.sh
 ```
 
-<!-- Additionally, the TRAIN.PRETRAINED_PATH can be set (either in the config file or bash script) to provide a pretrained model to initialize the weights. To initialize from the ImageNet-1K weights please refer to the FocalNets repository and download the FocalNet-T-SRF, FocalNet-S-SRF or FocalNet-B-SRF to initialize Video-FocalNet-T, Video-FocalNet-S or Video-FocalNet-B respectively. Alternatively, one of the provided pretrained Video-FocalNet models can also be utilized to initialize the weights. -->
-
 ## Training (Knowledge Distillation)
 To train the student model in knowledge distillation settings (under the supervision of pretrained teacher model) on a given dataset, run the following:
 ```
 torchrun --nproc_per_node <num-of-gpus-to-use> main_KD.py --cfg <config-file> --output <output-directory> --opts DATA.NUM_Frames <number of frames> KD.ALPHA <alpha value> KD.GAMMA <gamma value> KD.TEMPERATURE <temperature value>
 ```
+- ``` --nproc_per_node ```: set the number of GPU devices, in our case we used 3 GPUs.
+- ``` --cfg ```: the path of config file (located in configs directory), containing the model, data, and training configurations.
+- ``` --output ```: the path of output directory that will contain the training history (incluing both model weights and training logs).
+- ``` --opts ```: it allow user to provide additional data related (number of frames) or training related (i.e., hyper-parameter).
 
 <!--
 ## Citation
