@@ -37,7 +37,7 @@ Alternatively, the above step can be done by simply running the ``` bash.sh ``` 
 bash scripts/ucf101/video-focalnet_base.sh
 ```
 
-## Training (Knowledge Distillation) ``` anaconda ```
+## Training (Knowledge Distillation) 
 To train the student model in knowledge distillation settings (under the supervision of pretrained teacher model) on a given dataset, run the following:
 ```bash
 torchrun --nproc_per_node <num-of-gpus-to-use> main_KD.py --cfg <config-file> --output <output-directory> --opts DATA.NUM_Frames <number of frames> KD.ALPHA <alpha value> KD.BETA <beta value> KD.GAMMA <gamma value> KD.TEMPERATURE <temperature value>
