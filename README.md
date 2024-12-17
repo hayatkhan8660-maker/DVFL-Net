@@ -32,11 +32,11 @@ demands of Transformers, particularly in processing dense video data, remain a s
 
 |       Model      |    Depth   | Dim | Kernels | Top-1 | Top-5 | Parameters | Download |
 |:----------------:|:----------:|:---:|:-------:|:-----:|:-----:|:--------:|:--------:|
-| Video-FocalNet-B | [2,2,18,2] | 128 |  [3,5]  |  91.1 |  98.7 |  157M |   [ckpt](https://drive.google.com/file/d/1tc1AKKmvHN7Hzxpd53QsBIMQZmLH8ozX/view?usp=drive_link)   |
-| Video-FocalNet-S | [2,2,18,2] |  96 |  [3,5]  |  90.8 |  97.9 |  88M  |   [ckpt](https://drive.google.com/file/d/1gO4_tluuoR4mn2bSQRNyy9_wFCnUSiQ0/view?usp=sharing)   |
-| Video-FocalNet-T |  [2,2,6,2] |  96 |  [3,5]  |  90.1 |  97.1 |  49M  |   [ckpt](https://drive.google.com/file/d/1wsUjJbPVQd7pf-OocD9mVU8pak0gdBTP/view?usp=sharing)   |
-| VFL-Net          |  [1,1,2,1] |  96 |  [3,5]  |  81.4 |  91.4 |  22M  |   [ckpt](https://drive.google.com/file/d/1wsUjJbPVQd7pf-OocD9mVU8pak0gdBTP/view?usp=sharing)   |
-| DVFL-Net         |  [1,1,2,1] |  96 |  [3,5]  |  86.6 |  95.2 |  22M  |   [ckpt](https://drive.google.com/file/d/1wsUjJbPVQd7pf-OocD9mVU8pak0gdBTP/view?usp=sharing)   |
+| Video-FocalNet-B | [2,2,18,2] | 128 |  [3,5]  |  91.1 |  98.7 |  157M |   [ckpt](https://drive.google.com/file/d/1mN3N1h3v6JlaqCEXizccx9lXzkcjc34x/view?usp=drive_link)   |
+| Video-FocalNet-S | [2,2,18,2] |  96 |  [3,5]  |  90.8 |  97.9 |  88M  |   [ckpt](https://drive.google.com/file/d/1Z0P1TwtCXxw8B0BqAYSgZqRxO6eLac6i/view?usp=drive_link)   |
+| Video-FocalNet-T |  [2,2,6,2] |  96 |  [3,5]  |  90.1 |  97.1 |  49M  |   [ckpt](https://drive.google.com/file/d/1jqmLbrYBwuJ8p8xWac0QLXaVh3EuurGj/view?usp=drive_link)   |
+| VFL-Net          |  [1,1,2,1] |  96 |  [3,5]  |  81.4 |  91.4 |  22M  |   [ckpt](https://drive.google.com/file/d/1ObieSNBKb7LU_towZdj-pGH4hl2DduPI/view?usp=drive_link)   |
+| DVFL-Net         |  [1,1,2,1] |  96 |  [3,5]  |  86.6 |  95.2 |  22M  |   [ckpt](https://drive.google.com/file/d/1OojbPcDJjyRHqjVDW6IO038_imRlHqCm/view?usp=drive_link)   |
 
 ### UCF101
 
