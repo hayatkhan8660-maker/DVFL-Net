@@ -16,7 +16,6 @@ We provide our labels in the `labels` directory.
 ```
 where `<path_i>` points to a video file, and `<label_i>` is an integer between `0` and `num_classes - 1`.
 
-> Since some videos may no longer be available, it will lead to a small performance gap.
 
 
 ## Something-Something-v2
