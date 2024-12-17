@@ -1,6 +1,6 @@
 # Dataset Preparation
 
-We provide our labels in the `labels` directory, for the sake of understanding.
+We provide our labels in the `labels` directory, for the `HMDB51`, `UCF50`, and `UCF101` dataset.
 
 ## HMDB51
 
