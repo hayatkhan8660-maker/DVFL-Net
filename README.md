@@ -16,6 +16,12 @@ demands of Transformers, particularly in processing dense video data, remain a s
 <img src="figures/DVFL-Net.png" width="1000"/>
 <img src="figures/STFMB.png" width="1000"/>
 
+## Environment Setup
+Please follow [INSTALL.md](./INSTALL.md) for installation.
+
+## Dataset Preparation
+Please follow [DATA.md](./DATA.md) for data preparation.
+
 ## Model Zoo
 
 ### HMDB51
