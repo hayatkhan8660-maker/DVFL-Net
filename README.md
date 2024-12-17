@@ -42,11 +42,11 @@ demands of Transformers, particularly in processing dense video data, remain a s
 
 |       Model      |    Depth   | Dim | Kernels | Top-1 | Top-5 | Parameters | Download |
 |:----------------:|:----------:|:---:|:-------:|:-----:|:-----:|:--------:|:--------:|
-| Video-FocalNet-B | [2,2,18,2] | 128 |  [3,5]  |  91.9 |  99.4 |  157M |   [ckpt](https://drive.google.com/file/d/1tc1AKKmvHN7Hzxpd53QsBIMQZmLH8ozX/view?usp=drive_link)   |
-| Video-FocalNet-S | [2,2,18,2] |  96 |  [3,5]  |  91.2 |  98.9 |  88M  |   [ckpt](https://drive.google.com/file/d/1gO4_tluuoR4mn2bSQRNyy9_wFCnUSiQ0/view?usp=sharing)   |
-| Video-FocalNet-T |  [2,2,6,2] |  96 |  [3,5]  |  90.7 |  98.4 |  49M  |   [ckpt](https://drive.google.com/file/d/1wsUjJbPVQd7pf-OocD9mVU8pak0gdBTP/view?usp=sharing)   |
-| VFL-Net          |  [1,1,2,1] |  96 |  [3,5]  |  82.5 |  93.7 |  22M  |   [ckpt](https://drive.google.com/file/d/1wsUjJbPVQd7pf-OocD9mVU8pak0gdBTP/view?usp=sharing)   |
-| DVFL-Net         |  [1,1,2,1] |  96 |  [3,5]  |  88.4 |  96.1 |  22M  |   [ckpt](https://drive.google.com/file/d/1wsUjJbPVQd7pf-OocD9mVU8pak0gdBTP/view?usp=sharing)   |
+| Video-FocalNet-B | [2,2,18,2] | 128 |  [3,5]  |  91.9 |  99.4 |  157M |   [ckpt](https://drive.google.com/file/d/1lyu15Ltj8WSGTQVKnw3B88T4nC_0jOwv/view?usp=drive_link)   |
+| Video-FocalNet-S | [2,2,18,2] |  96 |  [3,5]  |  91.2 |  98.9 |  88M  |   [ckpt](https://drive.google.com/file/d/1ccZ65CxmBDDbExeQ_oaYwlfDzSBfnFor/view?usp=drive_link)   |
+| Video-FocalNet-T |  [2,2,6,2] |  96 |  [3,5]  |  90.7 |  98.4 |  49M  |   [ckpt](https://drive.google.com/file/d/1BFVY7wCyMve77HKvoCAiathIuiIEpPQ3/view?usp=drive_link)   |
+| VFL-Net          |  [1,1,2,1] |  96 |  [3,5]  |  82.5 |  93.7 |  22M  |   [ckpt](https://drive.google.com/file/d/1GA_lzpBcm2LT9shywfCdrPO8Rs61JOyw/view?usp=drive_link)   |
+| DVFL-Net         |  [1,1,2,1] |  96 |  [3,5]  |  88.4 |  96.1 |  22M  |   [ckpt](https://drive.google.com/file/d/10bf0RcmfftRTLeY5TvgstKwQt_OG9FMY/view?usp=drive_link)   |
 
 ## Training (Teacher Pretraining)
 To train teacher model on a given dataset, run the following:
