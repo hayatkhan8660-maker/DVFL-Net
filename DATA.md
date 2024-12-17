@@ -2,9 +2,9 @@
 
 We provide our labels in the `labels` directory.
 
-## Kinetics
+## HMDB51
 
-1. We download the official version of Kinetics from the [dataset provider](https://github.com/cvdfoundation/kinetics-dataset) and videos are resized using code [here](https://github.com/open-mmlab/mmaction2/tree/master/tools/data/kinetics).
+1. We download the office version of HMDB51 dataset from the [dataset provider](https://serre-lab.clps.brown.edu/resource/hmdb-a-large-human-motion-database/#Downloads) and videos are placed in dataset directory.
 
 2. After all the videos are downloaded, prepare the csv files for training and validation as `train.csv` and `val.csv`. The format of the CSV file is:
 
