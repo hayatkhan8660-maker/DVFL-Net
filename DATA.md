@@ -16,7 +16,7 @@ We provide our labels in the `labels` directory.
 ```
 where `<path_i>` points to a video file, and `<label_i>` is an integer between `0` and `num_classes - 1`.
 
-|       Dataset      | Number of Classes |  Total Number of Videos   | Train | Val | Average Video Duration | Resoultion |
+|       Dataset      | Number of Classes |  Total Number of Videos   | Train | Validation | Average Video Duration | Resoultion |
 |:----------------:|:----------:|:----------:|:---:|:-------:|:-------:|:-------:|
 | HMDB51 |    51   | 6710 | 5393 |  1317  | 1 ~ 10 sec | 320 × 240 |
 
