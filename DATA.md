@@ -23,7 +23,7 @@ where `<path_i>` points to a video file, and `<label_i>` is an integer between `
 
 ## UCF50
 
-1. We downloaded the offical version of UCF50 dataset from the [dataset provider](https://www.crcv.ucf.edu/data/UCF50.php) and videos are placed in the data directory.
+1. We downloaded the offical version of UCF50 dataset from the dataset provider [UCF Center for Research in Computer Vision](https://www.crcv.ucf.edu/data/UCF50.php) and videos are placed in the data directory.
 
 2. Once the dataset has been fully downloaded, generate the CSV files for training and validation using `csv_writer.py`, as `train.csv` and `val.csv`. The required format for the CSV files is as follows:
 
