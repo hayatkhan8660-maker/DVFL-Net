@@ -63,6 +63,3 @@ where `<path_i>` points to a video file, and `<label_i>` is an integer between `
     <b>We provided the csv files (train.csv and val.csv) for each dataset in data directory, for the sake of understanding.</b>
 </div>
 
-<div style="border: 2px solid black; padding: 10px; display: inline-block;">
-    This text is inside a rectangle.
-</div>
