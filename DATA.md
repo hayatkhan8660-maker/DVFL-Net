@@ -56,4 +56,4 @@ where `<path_i>` points to a video file, and `<label_i>` is an integer between `
 
 |       Dataset      | Number of Classes |  Total Number of Videos   | Train | Validation | Average Video Duration | Resoultion |
 |:----------------:|:----------:|:----------:|:---:|:-------:|:-------:|:-------:|
-| UCF101 |    101   | 6681 | 5360 |  1321  | 1 ~ 10 sec | 320 × 240 |
+| UCF101 |    101   | 13320 | 10690 |  2630  | 3 ~ 10 sec | 320 × 240 |
