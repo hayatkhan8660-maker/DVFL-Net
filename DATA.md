@@ -6,7 +6,7 @@ We provide our labels in the `labels` directory.
 
 1. We downloaded the offical version of HMDB51 dataset from the [dataset provider](https://serre-lab.clps.brown.edu/resource/hmdb-a-large-human-motion-database/#Downloads) and videos are placed in the data directory.
 
-2. Once the dataset has been fully downloaded, generate the CSV files for training and validation using `csv_writer.py`, as `train.csv` and `val.csv`. The required format for the CSV files is as follows::
+2. Once the dataset has been fully downloaded, generate the CSV files for training and validation using `csv_writer.py`, as `train.csv` and `val.csv`. The required format for the CSV files is as follows:
 
 ```
 <path_1>,<label_1>
