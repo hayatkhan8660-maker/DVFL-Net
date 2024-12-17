@@ -30,7 +30,7 @@ def save_video_paths_with_directory_numbers(root_directory, csv_filename):
                     
     print(f"Video paths and directory numbers have been saved to {csv_filename}")
 
-root_directory = 'dataset_name/train/'
+data_directory = 'dataset_name/train/'
 csv_filename = 'dataset_name/train.csv'
 
 save_video_paths_with_directory_numbers(root_directory, csv_filename)
