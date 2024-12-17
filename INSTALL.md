@@ -10,8 +10,8 @@ cd DVFL-Net
 - Create a conda virtual environment and activate it:
 
 ```bash
-conda create -n focal python=3.8 -y
-conda activate focal
+conda create -n DVFL python=3.10 -y
+conda activate DVFL
 ```
 
 - Install `PyTorch==1.11.0` and `torchvision==0.12.0` with `CUDA==11.3`:
