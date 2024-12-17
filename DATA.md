@@ -18,7 +18,7 @@ where `<path_i>` points to a video file, and `<label_i>` is an integer between `
 
 |       Dataset      | Number of Classes |  Total Number of Videos   | Train | Validation | Average Video Duration | Resoultion |
 |:----------------:|:----------:|:----------:|:---:|:-------:|:-------:|:-------:|
-| HMDB51 |    51   | 6766 | 5393 |  1317  | 1 ~ 10 sec | 320 × 240 |
+| HMDB51 |    51   | 6766 | 5441 |  1335  | 1 ~ 10 sec | 320 × 240 |
 
 
 ## Something-Something-v2
