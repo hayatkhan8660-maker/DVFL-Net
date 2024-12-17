@@ -14,16 +14,16 @@ conda create -n DVFL python=3.10 -y
 conda activate DVFL
 ```
 
-- Install `PyTorch==1.11.0` and `torchvision==0.12.0` with `CUDA==11.3`:
+- Install `PyTorch==2.4.0` and `torchvision==0.19.0` with `CUDA==12.4`:
 
 ```bash
-conda install pytorch==1.11.0 torchvision==0.12.0 torchaudio==0.11.0 cudatoolkit=11.3 -c pytorch
+conda install pytorch==2.4.0 torchvision==0.19.0 torchaudio==2.4.0 cudatoolkit=12.4 -c pytorch
 ```
 
-- Install `timm==0.5.4`:
+- Install `timm`:
 
 ```bash
-pip install timm==0.5.4
+pip install timm
 ```
 
 - Install `Apex`:
