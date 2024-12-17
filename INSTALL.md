@@ -3,8 +3,8 @@
 
 - Clone this repo:
 ```bash
-git clone https://github.com/TalalWasim/Video-FocalNets
-cd Video-FocalNets
+git clone https://github.com/hayatkhan8660-maker/DVFL-Net.git
+cd DVFL-Net
 ```
 
 - Create a conda virtual environment and activate it:
