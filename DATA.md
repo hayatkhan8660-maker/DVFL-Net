@@ -60,5 +60,5 @@ where `<path_i>` points to a video file, and `<label_i>` is an integer between `
 
 
 <div align="center">
-    <b>We provided the csv files (`train.csv` and `val.csv`) for each dataset in `data` directory, for the sake of understanding.</b>
+    <b>We provided the csv files (<span style="color:red;">train.csv</span> and <span style="color:red;">val.csv</span>) for each dataset in <span style="color:red;">data</span> directory, for the sake of understanding.</b>
 </div>
