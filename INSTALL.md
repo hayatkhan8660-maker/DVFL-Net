@@ -1,7 +1,7 @@
 
 ## Installation Instructions
 
-- Clone this repo:
+- Clone this repository:
 ```bash
 git clone https://github.com/hayatkhan8660-maker/DVFL-Net.git
 cd DVFL-Net
