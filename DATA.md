@@ -1,6 +1,6 @@
 # Dataset Preparation
 
-We provide our labels in the `labels` directory.
+We provide our labels in the `labels` directory, for the sake of understanding.
 
 ## HMDB51
 
