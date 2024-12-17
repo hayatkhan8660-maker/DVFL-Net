@@ -34,7 +34,7 @@ cd apex
 pip install -v --disable-pip-version-check --no-cache-dir --global-option="--cpp_ext" --global-option="--cuda_ext" ./
 ```
 
-- Install other requirements:
+- Install other prerequisite requirements:
 
 ```bash
 pip install decord==0.6.0 einops==0.4.1 imgaug==0.4.0 numpy==1.22.3 pandas==1.4.2 Pillow==9.0.1 PyYAML==6.0 termcolor==2.3.0 thop yacs
