@@ -58,4 +58,4 @@ where `<path_i>` points to a video file, and `<label_i>` is an integer between `
 |:----------------:|:----------:|:----------:|:---:|:-------:|:-------:|:-------:|
 | UCF101 |    101   | 13320 | 10690 |  2630  | 3 ~ 10 sec | 320 × 240 |
 
-> We provided the csv files (train.csv and val.csv) for each dataset, for the sake of understanding.
+> We provided the csv files (train.csv and val.csv) for each dataset in `data` directory, for the sake of understanding.
