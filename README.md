@@ -112,6 +112,15 @@ torchrun --nproc_per_node 1 main.py --eval --cfg configs/ucf101/VFL-Net.yaml --r
 
 ## Visualization
 
+<div style="display: flex; justify-content: space-between;">
+    <img src="image1.jpg" alt="Image 1" style="width: 18%;">
+    <img src="image2.jpg" alt="Image 2" style="width: 18%;">
+    <img src="image3.jpg" alt="Image 3" style="width: 18%;">
+    <img src="image4.jpg" alt="Image 4" style="width: 18%;">
+    <img src="image5.jpg" alt="Image 5" style="width: 18%;">
+</div>
+
+
 <!--
 ## Citation
 If you find our work, this repository, or pretrained models useful, please consider giving a star :star: and citation.
