@@ -111,8 +111,8 @@ torchrun --nproc_per_node 1 main.py --eval --cfg configs/ucf101/VFL-Net.yaml --r
 ```
 
 ## Visualization
-<span style="margin-right: 100px;">Input Video</span>
 
+|       Input Video      |    First Modular Layer   |  Second Modular Layer |  Third Modular Layer |  Fourth Modular Layer |
 <div style="display: flex; justify-content: space-between;">
     <img src="figures/basketball_results/frames_basketball.gif" alt="Basketball Frames" style="width: 160px; height: auto;"">
     <img src="figures/basketball_results/first_modulation_basketball.gif" alt="First Modulation BasketBall" style="width: 160px; height: auto;"">
@@ -170,10 +170,7 @@ torchrun --nproc_per_node 1 main.py --eval --cfg configs/ucf101/VFL-Net.yaml --r
     <img src="figures/skiing_results/fourth_modulation_skiing.gif" alt="First Modulation Skiing" style="width: 160px; height: auto;"">
 </div>
 
-<div style="text-align: center;">
-  <p><strong><center>Input Video</center></strong></p>
-  <img src="figures/skiing_results/frames_skiing.gif" alt="Skiing Frames" style="width: 160px; height: auto;"">
-</div>
+
 
 <!--
 ## Citation
