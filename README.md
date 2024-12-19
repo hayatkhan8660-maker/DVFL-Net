@@ -170,7 +170,15 @@ torchrun --nproc_per_node 1 main.py --eval --cfg configs/ucf101/VFL-Net.yaml --r
     <img src="figures/skiing_results/fourth_modulation_skiing.gif" alt="First Modulation Skiing" style="width: 160px; height: auto;"">
 </div>
 
-
+<table>
+  <tr>
+    <td style="text-align: center;">**Original Image**<br><img src="path/to/original_image.png" width="150"></td>
+    <td style="text-align: center;">**Heatmap 1**<br><img src="path/to/heatmap_1.png" width="150"></td>
+    <td style="text-align: center;">**Heatmap 2**<br><img src="path/to/heatmap_2.png" width="150"></td>
+    <td style="text-align: center;">**Heatmap 3**<br><img src="path/to/heatmap_3.png" width="150"></td>
+    <td style="text-align: center;">**Heatmap 4**<br><img src="path/to/heatmap_4.png" width="150"></td>
+  </tr>
+</table>
 
 <!--
 ## Citation
