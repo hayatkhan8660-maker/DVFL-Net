@@ -111,25 +111,6 @@ torchrun --nproc_per_node 1 main.py --eval --cfg configs/ucf101/VFL-Net.yaml --r
 ```
 
 ## Visualization
-<div style="display: flex; justify-content: space-between; align-items: center;">
-    <div>
-        <b>1</b>
-    </div>
-    <div">
-        <b>2</b>
-    </div>
-    <div">
-        <b>3</b>
-    </div>
-    <div">
-        <b>4</b>
-    </div>
-    <div">
-        <b>5</b>
-    </div>
-</div>
-
----
 
 <div style="display: flex; justify-content: space-between;">
     <img src="figures/basketball_results/frames_basketball.gif" alt="Basketball Frames" style="width: 160px; height: auto;"">
@@ -188,6 +169,28 @@ torchrun --nproc_per_node 1 main.py --eval --cfg configs/ucf101/VFL-Net.yaml --r
     <img src="figures/skiing_results/fourth_modulation_skiing.gif" alt="First Modulation BasketBall" style="width: 160px; height: auto;"">
 </div>
 
+<div style="display: flex; justify-content: space-between;">
+    <div style="position: relative; width: 18%;">
+        <img src="image1.jpg" alt="Image 1" style="width: 100%; display: block;">
+        <span style="position: absolute; top: 10px; left: 50%; transform: translateX(-50%); color: white; font-weight: bold;">1</span>
+    </div>
+    <div style="position: relative; width: 18%;">
+        <img src="image2.jpg" alt="Image 2" style="width: 100%; display: block;">
+        <span style="position: absolute; top: 10px; left: 50%; transform: translateX(-50%); color: white; font-weight: bold;">2</span>
+    </div>
+    <div style="position: relative; width: 18%;">
+        <img src="image3.jpg" alt="Image 3" style="width: 100%; display: block;">
+        <span style="position: absolute; top: 10px; left: 50%; transform: translateX(-50%); color: white; font-weight: bold;">3</span>
+    </div>
+    <div style="position: relative; width: 18%;">
+        <img src="image4.jpg" alt="Image 4" style="width: 100%; display: block;">
+        <span style="position: absolute; top: 10px; left: 50%; transform: translateX(-50%); color: white; font-weight: bold;">4</span>
+    </div>
+    <div style="position: relative; width: 18%;">
+        <img src="image5.jpg" alt="Image 5" style="width: 100%; display: block;">
+        <span style="position: absolute; top: 10px; left: 50%; transform: translateX(-50%); color: white; font-weight: bold;">5</span>
+    </div>
+</div>
 
 <!--
 ## Citation
