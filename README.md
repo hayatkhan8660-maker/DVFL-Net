@@ -111,9 +111,7 @@ torchrun --nproc_per_node 1 main.py --eval --cfg configs/ucf101/VFL-Net.yaml --r
 ```
 
 ## Visualization
-<pre>
-This    is    preformatted    text.
-</pre>
+<span style="margin-right: 100px;">Input Video</span>
 
 <div style="display: flex; justify-content: space-between;">
     <img src="figures/basketball_results/frames_basketball.gif" alt="Basketball Frames" style="width: 160px; height: auto;"">
