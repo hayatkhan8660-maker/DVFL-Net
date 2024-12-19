@@ -170,15 +170,10 @@ torchrun --nproc_per_node 1 main.py --eval --cfg configs/ucf101/VFL-Net.yaml --r
     <img src="figures/skiing_results/fourth_modulation_skiing.gif" alt="First Modulation Skiing" style="width: 160px; height: auto;"">
 </div>
 
-<table>
-  <tr>
-    <td style="text-align: center;">Input Video<br><img src="figures/skiing_results/frames_skiing.gif" alt="Skiing Frames" style="width: 160px; height: auto;""></td>
-    <td style="text-align: center;">First Modulation Layer<br><img src="figures/skiing_results/first_modulation_skiing.gif" alt="First Modulation Skiing" style="width: 160px; height: auto;""></td>
-    <td style="text-align: center;">Second Modulation Layer<br><img src="figures/skiing_results/second_modulation_skiing.gif" alt="First Modulation Skiing" style="width: 160px; height: auto;""></td>
-    <td style="text-align: center;">Third Modulation Layer<br><img src="figures/skiing_results/third_modulation_skiing.gif" alt="First Modulation Skiing" style="width: 160px; height: auto;""></td>
-    <td style="text-align: center;">Fourth Modulation Layer<br><img src="figures/skiing_results/fourth_modulation_skiing.gif" alt="First Modulation Skiing" style="width: 160px; height: auto;""></td>
-  </tr>
-</table>
+<figure>
+  <img src="figures/skiing_results/frames_skiing.gif" alt="Skiing Frames" style="width: 160px; height: auto;"">
+  <figcaption>Figure 1: This is the caption for the image.</figcaption>
+</figure>
 
 <!--
 ## Citation
