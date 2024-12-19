@@ -120,29 +120,14 @@ torchrun --nproc_per_node 1 main.py --eval --cfg configs/ucf101/VFL-Net.yaml --r
     <img src="figures/basketball_results/third_modulation_basketball.gif" alt="First Modulation BasketBall" style="width: 160px; height: auto;"">
     <img src="figures/basketball_results/fourth_modulation_basketball.gif" alt="First Modulation BasketBall" style="width: 160px; height: auto;"">
 </div>
-
 <div style="display: flex; justify-content: space-between;">
-    <figure style="text-align: center; width: 18%;">
-        <figcaption style="margin-bottom: 5px;">Caption 1</figcaption>
-        <img src="image1.jpg" alt="Image 1" style="width: 100%;">
-    </figure>
-    <figure style="text-align: center; width: 18%;">
-        <figcaption style="margin-bottom: 5px;">Caption 2</figcaption>
-        <img src="image2.jpg" alt="Image 2" style="width: 100%;">
-    </figure>
-    <figure style="text-align: center; width: 18%;">
-        <figcaption style="margin-bottom: 5px;">Caption 3</figcaption>
-        <img src="image3.jpg" alt="Image 3" style="width: 100%;">
-    </figure>
-    <figure style="text-align: center; width: 18%;">
-        <figcaption style="margin-bottom: 5px;">Caption 4</figcaption>
-        <img src="image4.jpg" alt="Image 4" style="width: 100%;">
-    </figure>
-    <figure style="text-align: center; width: 18%;">
-        <figcaption style="margin-bottom: 5px;">Caption 5</figcaption>
-        <img src="image5.jpg" alt="Image 5" style="width: 100%;">
-    </figure>
+    <img src="figures/basketball_results/frames_basketball.gif" alt="Basketball Frames" style="width: 160px; height: auto;"">
+    <img src="figures/basketball_results/first_modulation_basketball.gif" alt="First Modulation BasketBall" style="width: 160px; height: auto;"">
+    <img src="figures/basketball_results/second_modulation_baskeball.gif" alt="First Modulation BasketBall" style="width: 160px; height: auto;"">
+    <img src="figures/basketball_results/third_modulation_basketball.gif" alt="First Modulation BasketBall" style="width: 160px; height: auto;"">
+    <img src="figures/basketball_results/fourth_modulation_basketball.gif" alt="First Modulation BasketBall" style="width: 160px; height: auto;"">
 </div>
+
 
 <!--
 ## Citation
