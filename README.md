@@ -110,6 +110,11 @@ For instance, to evaluate the student model trained in knowledge distillation se
 torchrun --nproc_per_node 1 main.py --eval --cfg configs/ucf101/VFL-Net.yaml --resume output/ucf101/VFL-Net/LR_0.1_EP_120_OPT_sgd_FRAMES_8/ckpt_epoch_119.pth TEST.NUM_CLIP 4 TEST.NUM_CROP 3
 ```
 
+## Getting FLOPs
+```
+python get_flops.py --cfg <provide configuration of your model>
+```
+
 ## Visualization
 
 
