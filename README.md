@@ -113,7 +113,7 @@ torchrun --nproc_per_node 1 main.py --eval --cfg configs/ucf101/VFL-Net.yaml --r
 ## Visualization
 
 <div style="display: flex; justify-content: space-between;">
-    <img src="figures/basketball_results/frames_basketball.git" alt="Basketball Frames" style="width: 18%;">
+    <img src="figures/basketball_results/frames_basketball.gif" alt="Basketball Frames" style="width: 18%;">
     <img src="figures/basketball_results/first_modulation_basketball.gif" alt="Image 2" style="width: 18%;">
     <img src="figures/basketball_results/second_modulation_basketball.gif" alt="Image 3" style="width: 18%;">
     <img src="figures/basketball_results/third_modulation_basketball.gif" alt="Image 4" style="width: 18%;">
