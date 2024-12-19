@@ -170,7 +170,8 @@ torchrun --nproc_per_node 1 main.py --eval --cfg configs/ucf101/VFL-Net.yaml --r
     <img src="figures/skiing_results/fourth_modulation_skiing.gif" alt="First Modulation Skiing" style="width: 160px; height: auto;"">
 </div>
 
-
+**Original**
+![Original](figures/skiing_results/fourth_modulation_skiing.gif)
 
 <!--
 ## Citation
