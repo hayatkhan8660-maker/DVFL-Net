@@ -170,10 +170,10 @@ torchrun --nproc_per_node 1 main.py --eval --cfg configs/ucf101/VFL-Net.yaml --r
     <img src="figures/skiing_results/fourth_modulation_skiing.gif" alt="First Modulation Skiing" style="width: 160px; height: auto;"">
 </div>
 
-<figure>
+<div style="text-align: center;">
+  <p><strong>Figure 1: This is the caption centered at the top</strong></p>
   <img src="figures/skiing_results/frames_skiing.gif" alt="Skiing Frames" style="width: 160px; height: auto;"">
-  <figcaption>Figure 1: This is the caption for the image.</figcaption>
-</figure>
+</div>
 
 <!--
 ## Citation
