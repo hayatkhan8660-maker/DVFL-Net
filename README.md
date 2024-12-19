@@ -171,7 +171,7 @@ torchrun --nproc_per_node 1 main.py --eval --cfg configs/ucf101/VFL-Net.yaml --r
 </div>
 
 <div style="text-align: center;">
-  <p><strong>Figure 1: This is the caption centered at the top</strong></p>
+  <p><strong>Input Video</strong></p>
   <img src="figures/skiing_results/frames_skiing.gif" alt="Skiing Frames" style="width: 160px; height: auto;"">
 </div>
 
