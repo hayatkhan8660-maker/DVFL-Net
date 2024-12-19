@@ -172,11 +172,11 @@ torchrun --nproc_per_node 1 main.py --eval --cfg configs/ucf101/VFL-Net.yaml --r
 
 <table>
   <tr>
-    <td style="text-align: center;">**Original Image**<br><img src="path/to/original_image.png" width="150"></td>
-    <td style="text-align: center;">**Heatmap 1**<br><img src="path/to/heatmap_1.png" width="150"></td>
-    <td style="text-align: center;">**Heatmap 2**<br><img src="path/to/heatmap_2.png" width="150"></td>
-    <td style="text-align: center;">**Heatmap 3**<br><img src="path/to/heatmap_3.png" width="150"></td>
-    <td style="text-align: center;">**Heatmap 4**<br><img src="path/to/heatmap_4.png" width="150"></td>
+    <td style="text-align: center;">Input Video<br><img src="figures/skiing_results/frames_skiing.gif" alt="Skiing Frames" style="width: 160px; height: auto;""></td>
+    <td style="text-align: center;">First Modulation Layer<br><img src="figures/skiing_results/first_modulation_skiing.gif" alt="First Modulation Skiing" style="width: 160px; height: auto;""></td>
+    <td style="text-align: center;">Second Modulation Layer<br><img src="figures/skiing_results/second_modulation_skiing.gif" alt="First Modulation Skiing" style="width: 160px; height: auto;""></td>
+    <td style="text-align: center;">Third Modulation Layer<br><img src="figures/skiing_results/third_modulation_skiing.gif" alt="First Modulation Skiing" style="width: 160px; height: auto;""></td>
+    <td style="text-align: center;">Fourth Modulation Layer<br><img src="figures/skiing_results/fourth_modulation_skiing.gif" alt="First Modulation Skiing" style="width: 160px; height: auto;""></td>
   </tr>
 </table>
 
