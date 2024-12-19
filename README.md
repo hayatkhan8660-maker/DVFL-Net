@@ -134,6 +134,41 @@ torchrun --nproc_per_node 1 main.py --eval --cfg configs/ucf101/VFL-Net.yaml --r
     <img src="figures/golfswing_results/third_modulation_golfswing.gif" alt="First Modulation BasketBall" style="width: 160px; height: auto;"">
     <img src="figures/golfswing_results/fourth_modulation_golfswing.gif" alt="First Modulation BasketBall" style="width: 160px; height: auto;"">
 </div>
+<div style="display: flex; justify-content: space-between;">
+    <img src="figures/mixing_results/frames_mixing.gif" alt="Basketball Frames" style="width: 160px; height: auto;"">
+    <img src="figures/mixing_results/first_modulation_mixing.gif" alt="First Modulation BasketBall" style="width: 160px; height: auto;"">
+    <img src="figures/mixing_results/second_modulation_mixing.gif" alt="First Modulation BasketBall" style="width: 160px; height: auto;"">
+    <img src="figures/mixing_results/third_modulation_mixing.gif" alt="First Modulation BasketBall" style="width: 160px; height: auto;"">
+    <img src="figures/mixing_results/fourth_modulation_mixing.gif" alt="First Modulation BasketBall" style="width: 160px; height: auto;"">
+</div>
+<div style="display: flex; justify-content: space-between;">
+    <img src="figures/playingguitar_results/frames_playingguitar.gif" alt="Basketball Frames" style="width: 160px; height: auto;"">
+    <img src="figures/playingguitar_results/first_modulation_playingguitar.gif" alt="First Modulation BasketBall" style="width: 160px; height: auto;"">
+    <img src="figures/playingguitar_results/second_modulation_playingguitar.gif" alt="First Modulation BasketBall" style="width: 160px; height: auto;"">
+    <img src="figures/playingguitar_results/third_modulation_playingguitar.gif" alt="First Modulation BasketBall" style="width: 160px; height: auto;"">
+    <img src="figures/playingguitar_results/fourth_modulation_playingguitar.gif" alt="First Modulation BasketBall" style="width: 160px; height: auto;"">
+</div>
+<div style="display: flex; justify-content: space-between;">
+    <img src="figures/playingtabla_results/frames_playingtabla.gif" alt="Basketball Frames" style="width: 160px; height: auto;"">
+    <img src="figures/playingtabla_results/first_modulation_playingtabla.gif" alt="First Modulation BasketBall" style="width: 160px; height: auto;"">
+    <img src="figures/playingtabla_results/second_modulation_playingtabla.gif" alt="First Modulation BasketBall" style="width: 160px; height: auto;"">
+    <img src="figures/playingtabla_results/third_modulation_playingtabla.gif" alt="First Modulation BasketBall" style="width: 160px; height: auto;"">
+    <img src="figures/playingtabla_results/fourth_modulation_playingtabla.gif" alt="First Modulation BasketBall" style="width: 160px; height: auto;"">
+</div>
+<div style="display: flex; justify-content: space-between;">
+    <img src="figures/pullups_results/frames_pullups.gif" alt="Basketball Frames" style="width: 160px; height: auto;"">
+    <img src="figures/pullups_results/first_modulation_pullups.gif" alt="First Modulation BasketBall" style="width: 160px; height: auto;"">
+    <img src="figures/pullups_results/second_modulation_pullups.gif" alt="First Modulation BasketBall" style="width: 160px; height: auto;"">
+    <img src="figures/pullups_results/third_modulation_pullups.gif" alt="First Modulation BasketBall" style="width: 160px; height: auto;"">
+    <img src="figures/pullups_results/fourth_modulation_pullups.gif" alt="First Modulation BasketBall" style="width: 160px; height: auto;"">
+</div>
+<div style="display: flex; justify-content: space-between;">
+    <img src="figures/skiing_results/frames_skiing.gif" alt="Basketball Frames" style="width: 160px; height: auto;"">
+    <img src="figures/skiing_results/first_modulation_skiing.gif" alt="First Modulation BasketBall" style="width: 160px; height: auto;"">
+    <img src="figures/skiing_results/second_modulation_skiing.gif" alt="First Modulation BasketBall" style="width: 160px; height: auto;"">
+    <img src="figures/skiing_results/third_modulation_skiing.gif" alt="First Modulation BasketBall" style="width: 160px; height: auto;"">
+    <img src="figures/skiing_results/fourth_modulation_skiing.gif" alt="First Modulation BasketBall" style="width: 160px; height: auto;"">
+</div>
 
 
 <!--
