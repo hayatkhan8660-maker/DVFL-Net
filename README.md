@@ -112,7 +112,7 @@ torchrun --nproc_per_node 1 main.py --eval --cfg configs/ucf101/VFL-Net.yaml --r
 
 ## Visualization
 <div style="display: flex; justify-content: space-between; align-items: center;">
-    <div">
+    <div>
         <b>1</b>
     </div>
     <div">
