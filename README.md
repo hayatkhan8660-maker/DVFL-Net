@@ -120,77 +120,56 @@ torchrun --nproc_per_node 1 main.py --eval --cfg configs/ucf101/VFL-Net.yaml --r
     <img src="figures/basketball_results/fourth_modulation_basketball.gif" alt="First Modulation BasketBall" style="width: 160px; height: auto;"">
 </div>
 <div style="display: flex; justify-content: space-between;">
-    <img src="figures/benchpress_results/frames_benchpress.gif" alt="Basketball Frames" style="width: 160px; height: auto;"">
-    <img src="figures/benchpress_results/first_modulation_benchpress.gif" alt="First Modulation BasketBall" style="width: 160px; height: auto;"">
-    <img src="figures/benchpress_results/second_modulation_benchpress.gif" alt="First Modulation BasketBall" style="width: 160px; height: auto;"">
-    <img src="figures/benchpress_results/third_modulation_benchpress.gif" alt="First Modulation BasketBall" style="width: 160px; height: auto;"">
-    <img src="figures/benchpress_results/fourth_modulation_bench_press.gif" alt="First Modulation BasketBall" style="width: 160px; height: auto;"">
+    <img src="figures/benchpress_results/frames_benchpress.gif" alt="Benchpress Frames" style="width: 160px; height: auto;"">
+    <img src="figures/benchpress_results/first_modulation_benchpress.gif" alt="First Modulation Benchpress" style="width: 160px; height: auto;"">
+    <img src="figures/benchpress_results/second_modulation_benchpress.gif" alt="First Modulation Benchpress" style="width: 160px; height: auto;"">
+    <img src="figures/benchpress_results/third_modulation_benchpress.gif" alt="First Modulation Benchpress" style="width: 160px; height: auto;"">
+    <img src="figures/benchpress_results/fourth_modulation_bench_press.gif" alt="First Modulation Benchpress" style="width: 160px; height: auto;"">
 </div>
 <div style="display: flex; justify-content: space-between;">
-    <img src="figures/golfswing_results/frames_golfswing.gif" alt="Basketball Frames" style="width: 160px; height: auto;"">
-    <img src="figures/golfswing_results/first_modulation_golfswing.gif" alt="First Modulation BasketBall" style="width: 160px; height: auto;"">
-    <img src="figures/golfswing_results/second_modulation_golfswing.gif" alt="First Modulation BasketBall" style="width: 160px; height: auto;"">
-    <img src="figures/golfswing_results/third_modulation_golfswing.gif" alt="First Modulation BasketBall" style="width: 160px; height: auto;"">
-    <img src="figures/golfswing_results/fourth_modulation_golfswing.gif" alt="First Modulation BasketBall" style="width: 160px; height: auto;"">
+    <img src="figures/golfswing_results/frames_golfswing.gif" alt="Golf Swing Frames" style="width: 160px; height: auto;"">
+    <img src="figures/golfswing_results/first_modulation_golfswing.gif" alt="First Modulation Golf Swing" style="width: 160px; height: auto;"">
+    <img src="figures/golfswing_results/second_modulation_golfswing.gif" alt="First Modulation Golf Swing" style="width: 160px; height: auto;"">
+    <img src="figures/golfswing_results/third_modulation_golfswing.gif" alt="First Modulation Golf Swing" style="width: 160px; height: auto;"">
+    <img src="figures/golfswing_results/fourth_modulation_golfswing.gif" alt="First Modulation Golf Swing" style="width: 160px; height: auto;"">
 </div>
 <div style="display: flex; justify-content: space-between;">
-    <img src="figures/mixing_results/frames_mixing.gif" alt="Basketball Frames" style="width: 160px; height: auto;"">
-    <img src="figures/mixing_results/first_modulation_mixing.gif" alt="First Modulation BasketBall" style="width: 160px; height: auto;"">
-    <img src="figures/mixing_results/second_modulation_mixing.gif" alt="First Modulation BasketBall" style="width: 160px; height: auto;"">
-    <img src="figures/mixing_results/third_modulation_mixing.gif" alt="First Modulation BasketBall" style="width: 160px; height: auto;"">
-    <img src="figures/mixing_results/fourth_modulation_mixing.gif" alt="First Modulation BasketBall" style="width: 160px; height: auto;"">
+    <img src="figures/mixing_results/frames_mixing.gif" alt="Mixing Frames" style="width: 160px; height: auto;"">
+    <img src="figures/mixing_results/first_modulation_mixing.gif" alt="First Modulation Mixing" style="width: 160px; height: auto;"">
+    <img src="figures/mixing_results/second_modulation_mixing.gif" alt="First Modulation Mixing" style="width: 160px; height: auto;"">
+    <img src="figures/mixing_results/third_modulation_mixing.gif" alt="First Modulation Mixing" style="width: 160px; height: auto;"">
+    <img src="figures/mixing_results/fourth_modulation_mixing.gif" alt="First Modulation Mixing" style="width: 160px; height: auto;"">
 </div>
 <div style="display: flex; justify-content: space-between;">
-    <img src="figures/playingguitar_results/frames_playingguitar.gif" alt="Basketball Frames" style="width: 160px; height: auto;"">
-    <img src="figures/playingguitar_results/first_modulation_playingguitar.gif" alt="First Modulation BasketBall" style="width: 160px; height: auto;"">
-    <img src="figures/playingguitar_results/second_modulation_playingguitar.gif" alt="First Modulation BasketBall" style="width: 160px; height: auto;"">
-    <img src="figures/playingguitar_results/third_modulation_playingguitar.gif" alt="First Modulation BasketBall" style="width: 160px; height: auto;"">
-    <img src="figures/playingguitar_results/fourth_modulation_playingguitar.gif" alt="First Modulation BasketBall" style="width: 160px; height: auto;"">
+    <img src="figures/playingguitar_results/frames_playingguitar.gif" alt="Playing Guitar Frames" style="width: 160px; height: auto;"">
+    <img src="figures/playingguitar_results/first_modulation_playingguitar.gif" alt="First Modulation Playing Guitar" style="width: 160px; height: auto;"">
+    <img src="figures/playingguitar_results/second_modulation_playingguitar.gif" alt="First Modulation Playing Guitar" style="width: 160px; height: auto;"">
+    <img src="figures/playingguitar_results/third_modulation_playingguitar.gif" alt="First Modulation Playing Guitar" style="width: 160px; height: auto;"">
+    <img src="figures/playingguitar_results/fourth_modulation_playingguitar.gif" alt="First Modulation Playing Guitar" style="width: 160px; height: auto;"">
 </div>
 <div style="display: flex; justify-content: space-between;">
-    <img src="figures/playingtabla_results/frames_playingtabla.gif" alt="Basketball Frames" style="width: 160px; height: auto;"">
-    <img src="figures/playingtabla_results/first_modulation_playingtabla.gif" alt="First Modulation BasketBall" style="width: 160px; height: auto;"">
-    <img src="figures/playingtabla_results/second_modulation_playingtabla.gif" alt="First Modulation BasketBall" style="width: 160px; height: auto;"">
-    <img src="figures/playingtabla_results/third_modulation_playingtabla.gif" alt="First Modulation BasketBall" style="width: 160px; height: auto;"">
-    <img src="figures/playingtabla_results/fourth_modulation_playingtabla.gif" alt="First Modulation BasketBall" style="width: 160px; height: auto;"">
+    <img src="figures/playingtabla_results/frames_playingtabla.gif" alt="Playing Tabla Frames" style="width: 160px; height: auto;"">
+    <img src="figures/playingtabla_results/first_modulation_playingtabla.gif" alt="First Modulation Playing Tabla" style="width: 160px; height: auto;"">
+    <img src="figures/playingtabla_results/second_modulation_playingtabla.gif" alt="First Modulation Playing Tabla" style="width: 160px; height: auto;"">
+    <img src="figures/playingtabla_results/third_modulation_playingtabla.gif" alt="First Modulation Playing Tabla" style="width: 160px; height: auto;"">
+    <img src="figures/playingtabla_results/fourth_modulation_playingtabla.gif" alt="First Modulation Playing Tabla" style="width: 160px; height: auto;"">
 </div>
 <div style="display: flex; justify-content: space-between;">
-    <img src="figures/pullups_results/frames_pullups.gif" alt="Basketball Frames" style="width: 160px; height: auto;"">
-    <img src="figures/pullups_results/first_modulation_pullups.gif" alt="First Modulation BasketBall" style="width: 160px; height: auto;"">
-    <img src="figures/pullups_results/second_modulation_pullups.gif" alt="First Modulation BasketBall" style="width: 160px; height: auto;"">
-    <img src="figures/pullups_results/third_modulation_pullups.gif" alt="First Modulation BasketBall" style="width: 160px; height: auto;"">
-    <img src="figures/pullups_results/fourth_modulation_pullups.gif" alt="First Modulation BasketBall" style="width: 160px; height: auto;"">
+    <img src="figures/pullups_results/frames_pullups.gif" alt="Pullups Frames" style="width: 160px; height: auto;"">
+    <img src="figures/pullups_results/first_modulation_pullups.gif" alt="First Modulation Pullups" style="width: 160px; height: auto;"">
+    <img src="figures/pullups_results/second_modulation_pullups.gif" alt="First Modulation Pullups" style="width: 160px; height: auto;"">
+    <img src="figures/pullups_results/third_modulation_pullups.gif" alt="First Modulation Pullups" style="width: 160px; height: auto;"">
+    <img src="figures/pullups_results/fourth_modulation_pullups.gif" alt="First Modulation Pullups" style="width: 160px; height: auto;"">
 </div>
 <div style="display: flex; justify-content: space-between;">
-    <img src="figures/skiing_results/frames_skiing.gif" alt="Basketball Frames" style="width: 160px; height: auto;"">
-    <img src="figures/skiing_results/first_modulation_skiing.gif" alt="First Modulation BasketBall" style="width: 160px; height: auto;"">
-    <img src="figures/skiing_results/second_modulation_skiing.gif" alt="First Modulation BasketBall" style="width: 160px; height: auto;"">
-    <img src="figures/skiing_results/third_modulation_skiing.gif" alt="First Modulation BasketBall" style="width: 160px; height: auto;"">
-    <img src="figures/skiing_results/fourth_modulation_skiing.gif" alt="First Modulation BasketBall" style="width: 160px; height: auto;"">
+    <img src="figures/skiing_results/frames_skiing.gif" alt="Skiing Frames" style="width: 160px; height: auto;"">
+    <img src="figures/skiing_results/first_modulation_skiing.gif" alt="First Modulation Skiing" style="width: 160px; height: auto;"">
+    <img src="figures/skiing_results/second_modulation_skiing.gif" alt="First Modulation Skiing" style="width: 160px; height: auto;"">
+    <img src="figures/skiing_results/third_modulation_skiing.gif" alt="First Modulation Skiing" style="width: 160px; height: auto;"">
+    <img src="figures/skiing_results/fourth_modulation_skiing.gif" alt="First Modulation Skiing" style="width: 160px; height: auto;"">
 </div>
 
-<div style="display: flex; justify-content: space-between;">
-    <div style="position: relative; width: 18%;">
-        <img src="figures/skiing_results/frames_skiing.gif" alt="Image 1" style="width: 100%; display: block;">
-        <span style="position: absolute; top: 10px; left: 50%; transform: translateX(-50%); color: white; font-weight: bold;">1</span>
-    </div>
-    <div style="position: relative; width: 18%;">
-        <img src="figures/skiing_results/first_modulation_skiing.gif" alt="Image 2" style="width: 100%; display: block;">
-        <span style="position: absolute; top: 10px; left: 50%; transform: translateX(-50%); color: white; font-weight: bold;">2</span>
-    </div>
-    <div style="position: relative; width: 18%;">
-        <img src="figures/skiing_results/second_modulation_skiing.gif" alt="Image 3" style="width: 100%; display: block;">
-        <span style="position: absolute; top: 10px; left: 50%; transform: translateX(-50%); color: white; font-weight: bold;">3</span>
-    </div>
-    <div style="position: relative; width: 18%;">
-        <img src="figures/skiing_results/third_modulation_skiing.gif" alt="Image 4" style="width: 100%; display: block;">
-        <span style="position: absolute; top: 10px; left: 50%; transform: translateX(-50%); color: white; font-weight: bold;">4</span>
-    </div>
-    <div style="position: relative; width: 18%;">
-        <img src="figures/skiing_results/fourth_modulation_skiing.gif" alt="Image 5" style="width: 100%; display: block;">
-        <span style="position: absolute; top: 10px; left: 50%; transform: translateX(-50%); color: white; font-weight: bold;">5</span>
-    </div>
-</div>
+
 
 <!--
 ## Citation
