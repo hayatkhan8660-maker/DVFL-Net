@@ -112,7 +112,7 @@ torchrun --nproc_per_node 1 main.py --eval --cfg configs/ucf101/VFL-Net.yaml --r
 
 ## Getting FLOPs
 ```
-python get_flops.py --cfg <provide configuration of your model>
+python get_flops.py --cfg <provide the path of configuration file of your model>
 ```
 
 ## Visualization
