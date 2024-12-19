@@ -117,7 +117,6 @@ torchrun --nproc_per_node 1 main.py --eval --cfg configs/ucf101/VFL-Net.yaml --r
     <img src="figures/basketball_results/first_modulation_basketball.gif" alt="Image 2" style="width: 18%;">
     <img src="figures/basketball_results/second_modulation_basketball.gif" alt="Image 3" style="width: 18%;">
     <img src="figures/basketball_results/third_modulation_basketball.gif" alt="Image 4" style="width: 18%;">
-    <img src="figures/basketball_results/fourth_modulation_basketball.gif" alt="Image 5" style="width: 18%;">
 </div>
 
 
