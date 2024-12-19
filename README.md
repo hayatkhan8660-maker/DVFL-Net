@@ -117,7 +117,7 @@ python get_flops.py --cfg <provide the path of configuration file of your model>
 
 ## Visualization
 
-
+      **Input Video**
 <div style="display: flex; justify-content: space-between;">
     <img src="figures/basketball_results/frames_basketball.gif" alt="Basketball Frames" style="width: 160px; height: auto;"">
     <img src="figures/basketball_results/first_modulation_basketball.gif" alt="First Modulation BasketBall" style="width: 160px; height: auto;"">
